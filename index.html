@@ -1,9 +1,10 @@
 <head>
+  <link rel="stylesheet" href="sortalgorithms.css">
   <title>
   Sortieralgorithmen
   </title>
 </head>
-<h1>
+<h1 class="heading">
   Dokumentation zu Sortieralgorithmen
 </h1>
 <body>
@@ -18,11 +19,11 @@
      Zahlen innerhalb eines Objekts(des Arrays) angesprochen werden.  Bei der einfachsten Version des BubbleSort läuft
      dieser dabei immer vom Anfang  zum Ende des Arrays.  Sobald er dieses erreicht hat, beginnt er wieder von vorne.
     </p>
-    <img src="BubbleSort.jpg" alt="bubblesort grafik" height="400" width="220"/>
+    <img class="picture" src="BubbleSort.jpg" alt="bubblesort grafik" height="400" width="220"/>
     <p>
       Es gibt ebenfalls verbesserte Versionen dieses Algorithmus. Eine unterscheidet sich insofern, dass sie nicht immer bis zum Ende des Array durchläuft und dabei alle Elemente vergleicht, sondern der Algorithmus bei jedem Durchlauf ein Element vorher aufhört.
     </p>
-    <img src="Bubble-sort.gif" alt="bubblesort animation"/>
+    <img class="animation1"src="Bubble-sort.gif" alt="bubblesort animation"/>
      </article>
      <article>
        <p>
@@ -30,7 +31,7 @@
        bis Ende läuft, sondern beim Ende angekommen, die Richtung wechselt. Die Anzahl der Tauschverfahren bleibt gegenüber dem Bubblesort gleich. (Auch hier kann in weiteren Durchläufen sowohl die Grenze am Ende als auch
        am Anfang der Laufzeit geändert werden, sodass nicht mehr alle Zahlen verglichen werden.)
      </p>
-     <img src="Sorting_shaker_sort_anim.gif" alt="shakersort animation"/>
+     <img class="picture" src="Sorting_shaker_sort_anim.gif" alt="shakersort animation"/>
      </article>
      <h2>
        Funktionsweise des Insertionsorts
@@ -41,7 +42,7 @@
         kleineren kopiert, dabei ist das vorherige Zwischenspeichern dieser kleineren Zahl nötig. Nachdem dies geschehen ist, wird begonnen, die kleinere Zahl mit den im Array vor ihr angeordneten Elementen zu vergleichen. Sollte die Zahl ebenfalls größer sein, so wird sie eine Stellen nach oben kopiert. Dieser Vorgang wird wiederholt,
         bis die Zahl, mit der verglichen wird, kleiner gleich der ausgelagerten ist. Dann wird diese an die Stelle einen höher im Array als die kleinere kopiert. Nachdem diese Schleife also beendet wurde, beginnt nun wieder das einfache Vergleichen von zwei Elementen im Array.
        </p>
-       <img src="insertion-sort-example.gif" alt="insertionsort animation"/>
+       <img class="animation1" src="insertion-sort-example.gif" alt="insertionsort animation"/>
      </article>
    </main>
   </section>
