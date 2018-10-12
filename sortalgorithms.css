@@ -5,11 +5,14 @@ html, body {
 }
 
 p{
+  margin: 0px;
+  width: 600px;
   background-color: white;
   padding: 10px;
   border-style: solid;
   border-color: black;
   border-width: 2px;
+  font-size: 120%;
 }
 .picture{
   background-color: white;
@@ -24,7 +27,16 @@ img{
   border-style: solid;
   border-color: black;
   border-width: 2px;
+
 }
 .animation1{
   height: 200px;
+}
+article{
+  padding-left: 100px;
+  padding-top: 10px;
+  padding-bottom: 0px;
+}
+h2{
+  padding-top: 50px;
 }
